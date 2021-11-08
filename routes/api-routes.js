@@ -1,9 +1,8 @@
-
 const { fstat } = require("fs")
 const fs = require("fs");
 
 module.exports = function(app) {
-    //Reading JSON DB File and returning saved notes
+
     app.get("/api/notes", function(req, res) {
         fs.readFile(__dirname + "/../db/db.json", (err, data) => {
             if (err) throw err
@@ -12,8 +11,6 @@ module.exports = function(app) {
 
         })
     });
-
-    //API Post Requests: Save Notes
 
     app.post("/api/notes", function(req, res) {
         var newNote = req.body;
@@ -35,8 +32,6 @@ module.exports = function(app) {
             })
         })
     });
-
-    //Delete Notes
 
     app.delete("/api/notes/:id", function(req, res) {
         var noteTitle = req.params.id;
