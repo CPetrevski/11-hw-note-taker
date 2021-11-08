@@ -34,6 +34,10 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 - NODEJS
 - EXPRESSJS
 
+## Demo
+
+<img src="./public/assets/img/demo.png">
+
 ## Install
 
 ```
