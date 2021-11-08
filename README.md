@@ -33,3 +33,23 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 - JAVASCRIPT
 - NODEJS
 - EXPRESSJS
+
+## Install
+
+```
+npm install
+```
+## Run APP
+
+``` 
+npm start
+```
+
+# Links
+
+## REPO
+https://github.com/CPetrevski/11-hw-note-taker
+
+## APP
+
+https://damp-wave-57887.herokuapp.com/
